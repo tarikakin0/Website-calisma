@@ -1,0 +1,656 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style:none;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 2rem;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(22, 22, 22);
+    line-height: 1.5;
+}
+.clearfix::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+h3{
+    font-size: 3rem;
+}
+p{
+    font-size: 1.5rem;
+}
+.btn{
+    
+    background-color: #88654C;
+    box-shadow: 0px 5px 6px 0px rgb(0,0,0,.25);
+    padding: 1rem;
+    padding-top: .6rem;
+    padding-bottom: .6rem;
+    border-radius: .5rem;
+    font-family: 'Oswald', sans-serif;
+    font-size: 3rem;
+    letter-spacing: .2rem;
+    margin-left: 1rem;
+    transition: all .2s;
+}
+.btn:hover{
+    background-color: #5f4635;
+}
+h1{
+    font-size: 4rem;
+    }
+html{
+    scroll-behavior: smooth;
+
+    font-size: 10px;
+}
+header{
+    width: 100%;
+    height: 76rem;
+}
+#background-image{
+    background-image: url(img-calisma1/bg.jpg);
+    width: 100%;
+    height: 76rem;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    opacity: .6;
+    z-index: -1
+}
+nav{
+    margin-top: 0;
+    width: 100%;
+    text-align: left;
+    padding-left: 10rem;
+    background-color:rgba(0, 0, 0, 0.336);
+    position: fixed;
+    top: 0;
+}
+nav ul{
+    padding-left: 2rem;
+    display: inline-block;
+    padding-top: 2rem;
+}
+nav ul li{
+    
+    padding-right:5rem;
+    float: left;
+    z-index: 5;
+
+}
+nav a{
+     color: white;
+     transition: all .5s;
+}
+nav a:hover{
+    font-size: 2.4rem;
+}
+
+
+#logo{
+        width: 35rem;
+        height: 15rem;
+        display: inline-block;
+        float: left;
+        padding-left: 6rem;
+}
+
+#logo img{
+    width: 100%;
+    display: inline-block;
+}
+.upper{
+    text-transform: uppercase;
+}
+.baslik{
+    margin-left: 11rem;
+    color: white;
+    float: left;
+    text-align: left;
+    margin-top: 16rem;
+    left: -24rem;
+    font-size: 2.4rem;
+}
+.icerik
+{
+    text-align: left;
+    float: left;
+    padding-left: 11.4rem;
+    padding-right: 90rem;
+    font-size: 4rem;
+    color: white;
+    margin-top: 2rem;
+}
+.icerik p{
+    font-size: 1.9rem;
+}
+
+
+.button{
+    float: left;
+    margin-left: 10rem;
+    margin-top: 3rem;
+}
+.whiteback{
+    background-color: #949495;
+    transition: all .2s;
+    font-family: 'Oswald', sans-serif;
+
+}
+.whiteback:hover{
+    background-color: #636363;
+
+}
+
+.icon img{
+    display: inline-block;
+    width: 30%;
+    position: absolute;
+    right: 15rem;
+    top: 12rem;
+}
+#section-1{
+    width: 100%;
+    text-align: center;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    background-color: white;
+    height: 80rem;
+
+}
+#section-1 h1{
+    font-size: 4rem;
+    color: #412D20;
+    transition: all .6s;
+    display: inline-block;
+}
+#section-1:hover h1{
+    font-size: 4.2rem;
+    border-bottom: .2rem solid #88654C ;
+    color: #88654C;
+}
+.box{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    float: left;
+    width: 25%;
+    height: auto;
+}
+.box h3{
+    color: #0E538C;
+}
+.box img{
+    width: 100%;
+    height: 50%;
+}
+#section-2{
+        background-color:#FFC260;
+        color: white;
+        padding: 10rem;
+}
+#section-2 h1{
+    color: white;
+    transition: all .6s;
+    cursor: pointer;
+    display: inline-block;
+}
+#section-2:hover h1{
+    font-size: 4.2rem;
+    color: #0E538C;
+    border-bottom: .2rem solid #0E538C;
+}
+#section-2 p{
+    margin-top: 3rem;
+    font-size: 2rem;
+    width: 60%;
+    display: inline-block;
+}
+#section-2 img{
+
+    width: 30%;
+    float: right;
+}
+#section-3{
+    padding: 10rem;
+    background-color: #0E538C;
+}
+#section-3 h1{
+    color: white;
+    transition: all .6s;
+    cursor: pointer;
+    display: inline-block;
+}
+#section-3:hover h1{
+    font-size: 4.2rem;
+    color: #FFC260;
+    border-bottom: .2rem solid #FFC260;
+}
+.social{
+    margin-top: 2rem;
+    text-align: left;
+
+}
+
+.social i{
+    font-size: 3rem;
+    transition: all .5s;
+    margin-right: 3rem;
+}
+.social i:hover{
+    color: #FFC260;
+}
+.iletisim{
+
+    margin-top: 5rem;
+}
+.iletisim i{
+    display:inline-block;
+    color: white;   
+    font-size: 4rem;
+    margin: 2rem;
+    
+}
+
+.iletisim-item{
+    display: inline-block;
+    margin-right:5rem;
+}
+.author{
+    padding: 1.4rem;
+    color: black;
+    text-align: center;
+    background-color: #B0E1FF;
+}
+@media screen and (min-width:1845px)
+{
+    html{
+        font-size: 14px;
+    }
+    #section-2 img{
+        padding-bottom: 5rem ;}
+        
+        }
+}
+@media screen and (min-width:1560px)
+{
+    html{
+        font-size: 12px;
+    }
+    #section-2 img{
+        padding-bottom: 5rem ;}
+        
+        }
+}
+@media screen and (max-width:1326px)
+{
+    .icerik{
+        padding-right: 70rem;
+    }
+
+
+}
+
+@media screen and (max-width:1200px)
+{
+    html{
+        font-size: 8.5px;
+    }
+    .icerik{
+        padding-right: 80rem;
+    }
+    #section-2 img{
+        display: none;
+    }
+    #section-2 p{
+        width: 100%;
+        font-size: 2.3rem;
+    }
+    header{
+        height: 100rem;
+    }
+    #background-image{
+        height: 100rem;
+    }
+}
+@media screen and (max-width:1100px)
+{
+    .icerik{
+        padding-right: 60rem;
+    }
+}
+@media screen and (max-width:900px)
+{
+    .icerik{
+        padding-right: 50rem;
+    }
+}
+@media screen and (max-width:890px)
+{   
+    *{
+        text-align: center;
+    }
+    nav{
+        padding: 0;
+        padding: 0 auto;
+        text-align: center;
+        float: center;
+    }
+    nav a{
+        font-size: 3.2rem;
+    }
+    nav a:hover{
+        font-size: 4rem;
+    }
+    .baslik{
+        margin: 0;
+        margin-top: 20rem;
+        width: 100%;
+        display: inline-block;
+        text-align: center;
+    }
+    .baslik h1{
+        font-size: 5rem;
+    }
+    .icerik{
+        width: 100%;
+        padding: 0;
+        padding: 0 auto;
+        display: inline-block;
+        float: center;
+        text-align: center;
+        margin-bottom: 5rem;
+    }
+    .icerik p{
+        font-size: 4rem;
+    }
+    .button{
+        margin: 0;
+        float: none;
+    }
+    .btn{
+        padding: 1rem;
+        padding: 1rem 2rem;
+        font-size: 4rem;
+    }
+    #background-image{
+        height: 125rem;
+    }
+    header{
+        height: 125rem;
+    }
+
+    html{
+        font-size: 6px;
+    }
+    .box{
+        text-align: center;
+        float: center;
+        margin: 0 auto;
+        width: 100%;
+        padding: 0;
+    }
+    #section-1{
+        padding-right: 10rem;
+        padding-left: 10rem;
+        height: 607rem;
+        float: center;
+        text-align: center;
+    }
+    #section-2 p{
+        font-size: 3rem;
+    }
+
+    p{
+        font-size: 3.4rem;
+    }
+    .social{
+        margin-top: 2rem;
+        text-align: center;
+    }
+    .social i{
+        font-size: 4rem;
+        transition: all .5s;
+        float: center;
+        margin-right: 0;
+    }        
+    .social a{
+        padding-left: 7rem;
+    }
+    .asd{
+        padding-left: 0!important;
+    }
+}
+@media screen and (max-width:790px)
+{
+    #section-1{
+        height: 540rem;
+    }
+}
+
+@media screen and (max-width:720px)
+{
+
+    html{
+        font-size: 5px;
+    }
+    #section-1{
+        padding-right: 10rem;
+        padding-left: 10rem;
+        height: 620rem;
+    }
+    p{
+        font-size: 3.4rem;
+    }
+    #section-2{
+        padding-right: 3rem;
+        height: 100rem;
+    }
+
+    #section-2 p{
+        float: center;
+        font-size: 3rem;
+        width: 100%;
+    }
+    #section-2 h1{
+        font-size: 5rem;
+    }
+    #section-1 h1{
+        font-size: 5rem;
+    }
+    .iletisim i{
+        font-size: 6rem;
+        margin: 0;
+        margin-top: 3rem;
+        margin-right: 3rem;
+        
+    }
+    .social i{
+        margin-top: 3rem;
+        font-size: 5rem;
+    }
+    .iletisim a{
+        font-size: 3rem;
+    }
+    .iletisim-item{
+        width: 100%;
+    }
+    #section-1 h1{
+        font-size: 5rem;
+    }
+    #section-2 h1{
+        font-size:5rem;
+    }
+    #section-3 h1{
+        font-size:5rem;
+    }
+    #section-1:hover h1{
+        font-size: 6rem;
+    }
+    #section-2:hover h1{
+        font-size: 6rem;
+    }
+    #section-3:hover h1{
+        font-size: 6rem;
+    }
+    #section-2 p{
+        font-size: 3.2rem ;
+        float: left;
+        text-align: left;
+    }
+    .social{
+        margin-top: 2rem;
+        text-align: center;
+    }
+    .social i{
+        font-size: 6.5rem;
+        transition: all .5s;
+        float: center;
+        margin-right: 0;
+    }        
+    .social a{
+        padding-left: 7rem;
+    }
+    .asd{
+        padding-left: 0!important;
+    }
+
+
+    .iletisim i{
+        font-size: 5rem;
+
+    }
+    h3{
+        font-size: 5rem;
+        margin-bottom: 3rem;
+    }
+    
+}
+@media screen and (max-width:680px)
+{
+    #section-1{
+        height: 600rem;
+    }
+    #section-2 p{
+        font-size: 3.4rem;
+    }
+}
+@media screen and (max-width:640px){
+    #section-1{
+        height: 550rem;
+    }
+}
+@media screen and (max-width:620px){
+    #section-1{
+        height: 530rem;
+    }
+}
+@media screen and (max-width:528px)
+{
+        html{
+            font-size: 4.3px;
+        }
+        .baslik h1{
+            font-size: 7rem;
+        }
+        .btn{
+            padding: 1rem;
+            padding: 1rem 2.3rem;
+            font-size: 6rem;
+    
+        }
+        h3{
+            font-size: 5rem;
+            margin-bottom: 3rem;
+        }
+        #section-1 h1{
+            font-size: 6rem;
+        }
+        #section-2 h1{
+            font-size:6rem;
+        }
+        #section-3 h1{
+            font-size:6rem;
+        }
+        #section-1:hover h1{
+            font-size: 7rem;
+        }
+        #section-2:hover h1{
+            font-size: 7rem;
+        }
+        #section-3:hover h1{
+            font-size: 7rem;
+        }
+        #section-1{
+            height: 530rem;
+        }
+        #section-2{
+            height: 150rem;
+        }
+        #section-2 p{
+            text-align: left;
+            font-size: 4rem;
+        }
+        #section-3{
+            text-align: center;
+        }
+        .social{
+            margin-top: 2rem;
+            text-align: center;
+        }
+        .social i{
+            font-size: 6.5rem;
+            transition: all .5s;
+            float: center;
+            margin-right: 0;
+        }        
+        .social a{
+            padding-left: 7rem;
+        }
+        .asd{
+            padding-left: 0!important;
+        }
+
+
+        .iletisim i{
+            font-size: 5rem;
+
+        }
+        
+    }
+
+@media screen and (max-width:430px){
+        html{
+            font-size: 3.6px;
+        }
+}
+@media screen and (max-width:360px){
+    html{
+        font-size: 3.4px;
+    }
+}
+@media screen and (max-width:341px){
+    html{
+        font-size: 3.2px;
+    }
+}
+@media screen and (max-width:322px){
+    html{
+        font-size: 3px;
+    }
+}
+@media screen and (max-width:302px){
+    html{
+        font-size: 2.6px;
+    }
+}
